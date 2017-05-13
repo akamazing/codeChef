@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF91675B1EC6ABE7003D94B7 /* CHN05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9167591EC6ABE7003D94B7 /* CHN05.cpp */; };
+		EF9167651EC775A2003D94B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9167641EC775A2003D94B7 /* main.cpp */; };
+		EF91676C1EC776FF003D94B7 /* LAPIN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF91676A1EC776FF003D94B7 /* LAPIN.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		EF91674D1EC6A64C003D94B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EF9167601EC775A2003D94B7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,21 @@
 /* Begin PBXFileReference section */
 		EF91674F1EC6A64C003D94B7 /* codeChef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeChef; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9167591EC6ABE7003D94B7 /* CHN05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CHN05.cpp; sourceTree = "<group>"; };
+		EF91675C1EC6C543003D94B7 /* EASYPROB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EASYPROB.cpp; path = codeChef/EASYPROB.cpp; sourceTree = SOURCE_ROOT; };
+		EF9167621EC775A2003D94B7 /* easyproblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = easyproblem; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9167641EC775A2003D94B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF91676A1EC776FF003D94B7 /* LAPIN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LAPIN.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF91674C1EC6A64C003D94B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF91675F1EC775A2003D94B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				EF9167511EC6A64C003D94B7 /* codeChef */,
+				EF9167631EC775A2003D94B7 /* easyproblem */,
 				EF9167501EC6A64C003D94B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				EF91674F1EC6A64C003D94B7 /* codeChef */,
+				EF9167621EC775A2003D94B7 /* easyproblem */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +80,19 @@
 		EF9167511EC6A64C003D94B7 /* codeChef */ = {
 			isa = PBXGroup;
 			children = (
+				EF91675C1EC6C543003D94B7 /* EASYPROB.cpp */,
+				EF91676A1EC776FF003D94B7 /* LAPIN.cpp */,
 				EF9167591EC6ABE7003D94B7 /* CHN05.cpp */,
 			);
 			path = codeChef;
+			sourceTree = "<group>";
+		};
+		EF9167631EC775A2003D94B7 /* easyproblem */ = {
+			isa = PBXGroup;
+			children = (
+				EF9167641EC775A2003D94B7 /* main.cpp */,
+			);
+			path = easyproblem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +115,23 @@
 			productReference = EF91674F1EC6A64C003D94B7 /* codeChef */;
 			productType = "com.apple.product-type.tool";
 		};
+		EF9167611EC775A2003D94B7 /* easyproblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9167661EC775A2003D94B7 /* Build configuration list for PBXNativeTarget "easyproblem" */;
+			buildPhases = (
+				EF91675E1EC775A2003D94B7 /* Sources */,
+				EF91675F1EC775A2003D94B7 /* Frameworks */,
+				EF9167601EC775A2003D94B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easyproblem;
+			productName = easyproblem;
+			productReference = EF9167621EC775A2003D94B7 /* easyproblem */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +142,10 @@
 				ORGANIZATIONNAME = "Abhishek Kumar";
 				TargetAttributes = {
 					EF91674E1EC6A64C003D94B7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EF9167611EC775A2003D94B7 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,6 +164,7 @@
 			projectRoot = "";
 			targets = (
 				EF91674E1EC6A64C003D94B7 /* codeChef */,
+				EF9167611EC775A2003D94B7 /* easyproblem */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF91675B1EC6ABE7003D94B7 /* CHN05.cpp in Sources */,
+				EF91676C1EC776FF003D94B7 /* LAPIN.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF91675E1EC775A2003D94B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9167651EC775A2003D94B7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +292,20 @@
 			};
 			name = Release;
 		};
+		EF9167671EC775A2003D94B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF9167681EC775A2003D94B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -246,6 +323,14 @@
 			buildConfigurations = (
 				EF9167571EC6A64C003D94B7 /* Debug */,
 				EF9167581EC6A64C003D94B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF9167661EC775A2003D94B7 /* Build configuration list for PBXNativeTarget "easyproblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9167671EC775A2003D94B7 /* Debug */,
+				EF9167681EC775A2003D94B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
