@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF9167531EC6A64C003D94B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9167521EC6A64C003D94B7 /* main.cpp */; };
+		EF91675B1EC6ABE7003D94B7 /* CHN05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF9167591EC6ABE7003D94B7 /* CHN05.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		EF91674F1EC6A64C003D94B7 /* codeChef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeChef; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF9167521EC6A64C003D94B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF9167591EC6ABE7003D94B7 /* CHN05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CHN05.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		EF9167511EC6A64C003D94B7 /* codeChef */ = {
 			isa = PBXGroup;
 			children = (
-				EF9167521EC6A64C003D94B7 /* main.cpp */,
+				EF9167591EC6ABE7003D94B7 /* CHN05.cpp */,
 			);
 			path = codeChef;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9167531EC6A64C003D94B7 /* main.cpp in Sources */,
+				EF91675B1EC6ABE7003D94B7 /* CHN05.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

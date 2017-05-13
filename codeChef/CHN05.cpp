@@ -1,15 +1,17 @@
 //
-//  main.cpp
+//  CHN05.cpp
 //  codeChef
 //
 //  Created by Abhishek Kumar on 5/12/17.
 //  Copyright © 2017 Abhishek Kumar. All rights reserved.
 //
 
+#include <stdio.h>
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main(){
+    cout<<"Hello World\n";
     return 0;
 }
